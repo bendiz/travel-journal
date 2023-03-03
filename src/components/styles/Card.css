@@ -1,0 +1,100 @@
+.Card {
+    padding: 6rem 4rem 2.5rem;
+    display: flex;
+    font-family: 'Inter';
+}
+.Card > img {
+    min-width: 340px;
+    max-width: 340px;
+    object-fit: cover;
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Card .location {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 1.7px;
+}
+
+.Card .location-dot {
+    margin-right: 0.2rem;
+    height: 1.5rem;
+    width: auto;
+}
+
+.Card .maps {
+    display: flex;
+    gap: 1.5rem;
+}
+
+a {
+    color: #918e9b;
+}
+
+.Card .title {
+    margin: 0.7rem 0 2.7rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.Card .date {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.Card .desc {
+    font-size: 1.5rem;
+}
+
+.Card .info {
+    margin-top: 11rem;
+    color: #2b283a;
+    margin-left: 1.9rem;
+    max-width: 50%;
+}
+
+@media screen and (max-width: 720px) {
+    .Card {
+        padding: 2rem 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Card .info {
+        margin-top: 1.2rem;
+        max-width: 460px;
+        min-width: 320px;
+        padding-right: 1.9rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .Card {
+        text-align: center;
+        max-width: 260px;
+    }
+    .Card > img {
+        max-width: 240px;
+        min-width: 200px;
+    }
+
+    .Card .maps {
+        justify-content: center;
+    }
+    .Card .info {
+        padding: 0;
+    }
+
+    .Card .desc {
+        max-width: 200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .Card .title {
+        font-size: 2rem;
+        margin-bottom: 1.2rem;
+    }
+}

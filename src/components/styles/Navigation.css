@@ -1,0 +1,21 @@
+.Navigation {
+    font-family: 'Inter', sans-serif;
+    width: 100vw;
+    height: 55px;
+    background-color: #40e9de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navigation > h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: -0.1rem;
+}
+
+.Navigation > img {
+    width: 40px;
+}

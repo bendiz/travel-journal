@@ -1,5 +1,5 @@
 <h2> Travel Journal </h2>
-Live: https://dashing-paprenjak-e53a09.netlify.app/
+Live: travel-bendiz.netlify.app
 <br/>- React practice
 
 

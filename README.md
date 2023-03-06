@@ -1,5 +1,5 @@
 <h2> Travel Journal </h2>
-Live: [travel-bendiz.netlify.app](https://travel-bendiz.netlify.app/)
+Live: https://travel-bendiz.netlify.app/
 <br/>- React practice
 
 
